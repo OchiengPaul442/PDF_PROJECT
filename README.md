@@ -5,7 +5,7 @@
 The PDF Uploader and Viewer is a full-stack application that allows users to upload PDF files, store them in the cloud, and preview them within the application. The backend is built with Node.js and Express, and uses MongoDB for database management and Cloudinary for cloud-based file storage. The frontend is built with Angular.
 
 ### Important Notice
-please note that there could be potential conflicts with applications like Internet Download Manager (IDM) or other similar download managers. These applications might disrupt the PDF viewing functionality within our application.
+please note that there could be potential conflicts with applications like Internet Download Manager (IDM) or other similar download managers. These applications might disrupt the PDF viewing functionality within the application.
 
 To ensure a seamless user experience and the smooth operation of the PDF Uploader and Viewer, we strongly recommend temporarily disabling any active download manager applications while using this app. This will enable you to upload and view PDFs within the application without any hindrance.
 
