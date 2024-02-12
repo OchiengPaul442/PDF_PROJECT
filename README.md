@@ -21,6 +21,7 @@ Before you begin, ensure you have the following installed on your local developm
 - Node.js - Download & Install Node.js and the npm package manager.
 - MongoDB - Download & Install MongoDB, and make sure it's running on the default port (27017) or use a remote mongodb database like atlas
 - Cloudinary Account - Create an account on Cloudinary for cloud-based file storage.
+- Tailwindcss for styling
 
 ### Installation
 
