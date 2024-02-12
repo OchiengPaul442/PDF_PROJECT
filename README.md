@@ -39,7 +39,7 @@ Before you begin, ensure you have the following installed on your local developm
 
 4. **Start the backend server** by running the following command in the backend terminal:
    ```sh
-   node server.js
+   npm start
    ```
    This will start the Node.js server on your local machine.
 
