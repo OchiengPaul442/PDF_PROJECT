@@ -50,3 +50,8 @@ The backend server is built with Node.js and Express. It uses MongoDB as the dat
 
 ### Frontend
 The frontend is an Angular application. It provides a user interface for users to interact with the application. It communicates with the backend server to upload PDF files, retrieve them from the cloud, and display them to the user.
+
+
+### SCREEN SHOTS
+![alt text](image.png)
+![alt text](image-1.png)

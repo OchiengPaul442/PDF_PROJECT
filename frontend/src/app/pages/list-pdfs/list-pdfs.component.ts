@@ -23,25 +23,9 @@ export class ListPdfsComponent implements OnInit {
     this.selectedPdf = pdfUrl;
   }
 
-  onDeletePdf(pdfId: string) {
-    const confirmDelete = confirm('Are you sure you want to delete this PDF?');
-    if (!confirmDelete) {
-      return;
-    }
 
-    this.isLoading = true;
-    this.http
-      .delete(`${this.API_URL}/delete/${pdfId}`)
-      .subscribe((response) => {
-        if (response) {
-          alert('PDF deleted successfully');
-          this.getPdfs();
-        } else {
-          alert('Failed to delete PDF. Please try again.');
-        }
-      });
-  }
-
+  // TODO: Delete method
+  
   getPdfs() {
     this.isLoading = true;
     this.http.get(`${this.API_URL}/view`).subscribe(

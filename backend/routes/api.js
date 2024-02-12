@@ -38,19 +38,6 @@ router.post("/upload", upload.single("file"), async (req, res) => {
 });
 
 // delete a pdf
-router.delete("/delete/:id", (req, res) => {
-  Pdf.findById(req.params.id)
-    .then((pdf) => {
-      cloudinary.uploader.destroy(pdf.cloudinary_id, (error, result) => {
-        if (error) return res.json({ error });
-
-        Pdf.findByIdAndDelete(req.params.id)
-          .then(() => res.json("Pdf and associated image deleted."))
-          .catch((err) => res.status(400).json("Error: " + err));
-      });
-    })
-    .catch((err) => res.status(400).json("Error: " + err));
-});
-
+// TODO: delete file from cloudinary
 
 module.exports = router;
